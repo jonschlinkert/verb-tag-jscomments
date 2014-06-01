@@ -1,0 +1,147 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\jps\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\jps\\AppData\\Local\\Temp\\npm-9684-d6iwTu58\\1401622646679-0.276597460731864\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\jps\AppData\Local\Temp\npm-9684-d6iwTu58\1401622646679-0.276597460731864\tmp.tgz
+13 verbose folder .
+14 info prepublish verb-tag-jscomments@0.1.0
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\jps\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 77c6e46c-646679-0-276597460731864-tmp-tgz tar://C:\Users\jps\AppData\Local\Temp\npm-9684-d6iwTu58\1401622646679-0.276597460731864\tmp.tgz
+18 verbose lock tar://C:\Users\jps\AppData\Local\Temp\npm-9684-d6iwTu58\1401622646679-0.276597460731864\tmp.tgz C:\Users\jps\AppData\Roaming\npm-cache\77c6e46c-646679-0-276597460731864-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 77c6e46c-646679-0-276597460731864-tmp-tgz tar://C:\Users\jps\AppData\Local\Temp\npm-9684-d6iwTu58\1401622646679-0.276597460731864\tmp.tgz
+22 silly lockFile 77c6e46c-646679-0-276597460731864-tmp-tgz tar://C:\Users\jps\AppData\Local\Temp\npm-9684-d6iwTu58\1401622646679-0.276597460731864\tmp.tgz
+23 verbose tar unpack C:\Users\jps\AppData\Local\Temp\npm-9684-d6iwTu58\1401622646679-0.276597460731864\tmp.tgz
+24 silly lockFile 0baf34e3-erb-tag-jscomments-0-1-0-package tar://C:\Users\jps\AppData\Roaming\npm-cache\verb-tag-jscomments\0.1.0\package
+25 verbose lock tar://C:\Users\jps\AppData\Roaming\npm-cache\verb-tag-jscomments\0.1.0\package C:\Users\jps\AppData\Roaming\npm-cache\0baf34e3-erb-tag-jscomments-0-1-0-package.lock
+26 silly lockFile 77c6e46c-646679-0-276597460731864-tmp-tgz tar://C:\Users\jps\AppData\Local\Temp\npm-9684-d6iwTu58\1401622646679-0.276597460731864\tmp.tgz
+27 verbose lock tar://C:\Users\jps\AppData\Local\Temp\npm-9684-d6iwTu58\1401622646679-0.276597460731864\tmp.tgz C:\Users\jps\AppData\Roaming\npm-cache\77c6e46c-646679-0-276597460731864-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+33 silly gunzTarPerm extractEntry README.md
+34 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+35 silly gunzTarPerm extractEntry index.js
+36 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+37 silly gunzTarPerm extractEntry .gitattributes
+38 silly gunzTarPerm modified mode [ '.gitattributes', 438, 420 ]
+39 silly gunzTarPerm extractEntry .jshintrc
+40 silly gunzTarPerm modified mode [ '.jshintrc', 438, 420 ]
+41 silly gunzTarPerm extractEntry .verbrc.md
+42 silly gunzTarPerm modified mode [ '.verbrc.md', 438, 420 ]
+43 silly gunzTarPerm extractEntry LICENSE-MIT
+44 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 438, 420 ]
+45 silly gunzTarPerm extractEntry test/jscomments.js
+46 silly gunzTarPerm modified mode [ 'test/jscomments.js', 438, 420 ]
+47 silly gunzTarPerm extractEntry test/test.js
+48 silly gunzTarPerm modified mode [ 'test/test.js', 438, 420 ]
+49 silly gunzTarPerm extractEntry test/actual/jscomments.md
+50 silly gunzTarPerm modified mode [ 'test/actual/jscomments.md', 438, 420 ]
+51 silly gunzTarPerm extractEntry test/fixtures/index.js
+52 silly gunzTarPerm modified mode [ 'test/fixtures/index.js', 438, 420 ]
+53 silly gunzTarPerm extractEntry test/jscomments.md
+54 silly gunzTarPerm modified mode [ 'test/jscomments.md', 438, 420 ]
+55 silly gunzTarPerm extractEntry test/mocha.opts
+56 silly gunzTarPerm modified mode [ 'test/mocha.opts', 438, 420 ]
+57 silly lockFile 0baf34e3-erb-tag-jscomments-0-1-0-package tar://C:\Users\jps\AppData\Roaming\npm-cache\verb-tag-jscomments\0.1.0\package
+58 silly lockFile 0baf34e3-erb-tag-jscomments-0-1-0-package tar://C:\Users\jps\AppData\Roaming\npm-cache\verb-tag-jscomments\0.1.0\package
+59 silly lockFile 77c6e46c-646679-0-276597460731864-tmp-tgz tar://C:\Users\jps\AppData\Local\Temp\npm-9684-d6iwTu58\1401622646679-0.276597460731864\tmp.tgz
+60 silly lockFile 77c6e46c-646679-0-276597460731864-tmp-tgz tar://C:\Users\jps\AppData\Local\Temp\npm-9684-d6iwTu58\1401622646679-0.276597460731864\tmp.tgz
+61 silly lockFile 3a52ce78- .
+62 silly lockFile 3a52ce78- .
+63 silly publish { name: 'verb-tag-jscomments',
+63 silly publish   description: 'Tag for Verb. Uses js-comments to parse JavaScript code comments and generate API documentation.',
+63 silly publish   version: '0.1.0',
+63 silly publish   homepage: 'https://github.com/jonschlinkert/verb-tag-jscomments',
+63 silly publish   author:
+63 silly publish    { name: 'Jon Schlinkert',
+63 silly publish      url: 'https://github.com/jonschlinkert' },
+63 silly publish   repository:
+63 silly publish    { type: 'git',
+63 silly publish      url: 'git://github.com/jonschlinkert/verb-tag-jscomments.git' },
+63 silly publish   bugs: { url: 'https://github.com/jonschlinkert/verb-tag-jscomments/issues' },
+63 silly publish   licenses:
+63 silly publish    [ { type: 'MIT',
+63 silly publish        url: 'https://github.com/jonschlinkert/verb-tag-jscomments/blob/master/LICENSE-MIT' } ],
+63 silly publish   main: 'index.js',
+63 silly publish   engines: { node: '>=0.10.0' },
+63 silly publish   scripts: { test: 'mocha -R spec' },
+63 silly publish   devDependencies: { verb: '~0.2.5', chai: '~1.9.1', mocha: '~1.18.2' },
+63 silly publish   keywords: [ 'verbtag', 'verb tag' ],
+63 silly publish   dependencies:
+63 silly publish    { 'fs-utils': '^0.4.3',
+63 silly publish      'js-comments': '^0.1.1',
+63 silly publish      lodash: '^2.4.1' },
+63 silly publish   readme: '# verb-tag-jscomments [![NPM version](https://badge.fury.io/js/verb-tag-jscomments.png)](http://badge.fury.io/js/verb-tag-jscomments)\n\n> Tag for Verb. Uses js-comments to parse JavaScript code comments and generate API documentation.\n\nVisit the [js-comments](https://github.com/jonschlinkert/js-comments) repo for documentation.\n\n## Install\nInstall with [npm](npmjs.org):\n\n```bash\nnpm i verb-tag-jscomments --save-dev\n```\n\n## Usage\n\nTo register the tag with [verb][verb], add the `tags` property to the front matter of your project\'s `.verbrc.md` (or `docs/README.tmpl.md`):\n\n```yaml\n---\ntags: [\'verb-tag-jscomments\']\n---\n```\n\nIn your templates, you can now use the tag like this:\n\n```js\n{%= jscomments("index.js") %}\n```\n\n_(Also note that front-matter is just one way to register verb tags, filters, and plugins. See the [verb documentation][docs] for more info.)_\n\n\n## Author\n\n**Jon Schlinkert**\n \n+ [github/jonschlinkert](https://github.com/jonschlinkert)\n+ [twitter/jonschlinkert](http://twitter.com/jonschlinkert) \n\n## License\nCopyright (c) 2014 Jon Schlinkert, contributors.  \nReleased under the MIT license\n\n***\n\n_This file was generated by [verb-cli](https://github.com/assemble/verb-cli) on June 01, 2014._',
+63 silly publish   readmeFilename: 'README.md',
+63 silly publish   _id: 'verb-tag-jscomments@0.1.0',
+63 silly publish   _shasum: '9942a7dd3f0b3e8257b33711a0916dd84b91ebc9',
+63 silly publish   _from: '.' }
+64 verbose url raw verb-tag-jscomments
+65 verbose url resolving [ 'https://registry.npmjs.org/', './verb-tag-jscomments' ]
+66 verbose url resolved https://registry.npmjs.org/verb-tag-jscomments
+67 info trying registry request attempt 1 at 07:37:26
+68 http PUT https://registry.npmjs.org/verb-tag-jscomments
+69 http 403 https://registry.npmjs.org/verb-tag-jscomments
+70 verbose headers { date: 'Sun, 01 Jun 2014 11:37:32 GMT',
+70 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+70 verbose headers   'content-type': 'application/json',
+70 verbose headers   'cache-control': 'max-age=1',
+70 verbose headers   'content-length': '4347',
+70 verbose headers   'accept-ranges': 'bytes',
+70 verbose headers   via: '1.1 varnish',
+70 verbose headers   'x-served-by': 'cache-d98-DAL',
+70 verbose headers   'x-cache': 'MISS',
+70 verbose headers   'x-cache-hits': '0',
+70 verbose headers   'x-timer': 'S1401622652.375772,VS0,VE290',
+70 verbose headers   'keep-alive': 'timeout=10, max=50',
+70 verbose headers   connection: 'Keep-Alive' }
+71 error publish Failed PUT 403
+72 error Error: forbidden cannot modify pre-existing version: 0.1.0
+72 error old={"name":"verb-tag-jscomments","description":"Tag for Verb. Uses js-comments to parse JavaScript code comments and generate API documentation.","version":"0.1.0","homepage":"https://github.com/jonschlinkert/verb-tag-jscomments","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"repository":{"type":"git","url":"git://github.com/jonschlinkert/verb-tag-jscomments.git"},"bugs":{"url":"https://github.com/jonschlinkert/verb-tag-jscomments/issues"},"licenses":[{"type":"MIT","url":"https://github.com/jonschlinkert/verb-tag-jscomments/blob/master/LICENSE-MIT"}],"main":"index.js","engines":{"node":">=0.10.0"},"scripts":{"test":"mocha -R spec"},"devDependencies":{"verb":"~0.2.5","chai":"~1.9.1","mocha":"~1.18.2"},"keywords":["verbtag","verb tag"],"_id":"verb-tag-jscomments@0.1.0","_shasum":"c52cf8ef3614dd3ad846fb0991f0828bb023ad27","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"jonschlinkert","email":"github@sellside.com"},"maintainers":[{"name":"jonschlinkert","email":"github@sellside.com"}],"dist":{"shasum":"c52cf8ef3614dd3ad846fb0991f0828bb023ad27","tarball":"http://registry.npmjs.org/verb-tag-jscomments/-/verb-tag-jscomments-0.1.0.tgz"}}
+72 error new={"name":"verb-tag-jscomments","description":"Tag for Verb. Uses js-comments to parse JavaScript code comments and generate API documentation.","version":"0.1.0","homepage":"https://github.com/jonschlinkert/verb-tag-jscomments","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"repository":{"type":"git","url":"git://github.com/jonschlinkert/verb-tag-jscomments.git"},"bugs":{"url":"https://github.com/jonschlinkert/verb-tag-jscomments/issues"},"licenses":[{"type":"MIT","url":"https://github.com/jonschlinkert/verb-tag-jscomments/blob/master/LICENSE-MIT"}],"main":"index.js","engines":{"node":">=0.10.0"},"scripts":{"test":"mocha -R spec"},"devDependencies":{"verb":"~0.2.5","chai":"~1.9.1","mocha":"~1.18.2"},"keywords":["verbtag","verb tag"],"dependencies":{"fs-utils":"^0.4.3","js-comments":"^0.1.1","lodash":"^2.4.1"},"readme":"# verb-tag-jscomments [![NPM version](https://badge.fury.io/js/verb-tag-jscomments.png)](http://badge.fury.io/js/verb-tag-jscomments)\u000a\u000a> Tag for Verb. Uses js-comments to parse JavaScript code comments and generate API documentation.\u000a\u000aVisit the [js-comments](https://github.com/jonschlinkert/js-comments) repo for documentation.\u000a\u000a## Install\u000aInstall with [npm](npmjs.org):\u000a\u000a```bash\u000anpm i verb-tag-jscomments --save-dev\u000a```\u000a\u000a## Usage\u000a\u000aTo register the tag with [verb][verb], add the `tags` property to the front matter of your project's `.verbrc.md` (or `docs/README.tmpl.md`):\u000a\u000a```yaml\u000a---\u000atags: ['verb-tag-jscomments']\u000a---\u000a```\u000a\u000aIn your templates, you can now use the tag like this:\u000a\u000a```js\u000a{%= jscomments(\"index.js\") %}\u000a```\u000a\u000a_(Also note that front-matter is just one way to register verb tags, filters, and plugins. See the [verb documentation][docs] for more info.)_\u000a\u000a\u000a## Author\u000a\u000a**Jon Schlinkert**\u000a \u000a+ [github/jonschlinkert](https://github.com/jonschlinkert)\u000a+ [twitter/jonschlinkert](http://twitter.com/jonschlinkert) \u000a\u000a## License\u000aCopyright (c) 2014 Jon Schlinkert, contributors.  \u000aReleased under the MIT license\u000a\u000a***\u000a\u000a_This file was generated by [verb-cli](https://github.com/assemble/verb-cli) on June 01, 2014._","readmeFilename":"README.md","_id":"verb-tag-jscomments@0.1.0","_shasum":"9942a7dd3f0b3e8257b33711a0916dd84b91ebc9","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"jonschlinkert","email":"github@sellside.com"},"maintainers":[{"name":"jonschlinkert","email":"github@sellside.com"}],"dist":{"shasum":"9942a7dd3f0b3e8257b33711a0916dd84b91ebc9","tarball":"http://registry.npmjs.org/verb-tag-jscomments/-/verb-tag-jscomments-0.1.0.tgz"}}: verb-tag-jscomments
+72 error     at RegClient.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:273:14)
+72 error     at Request._callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:211:65)
+72 error     at Request.self.callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:123:22)
+72 error     at Request.EventEmitter.emit (events.js:98:17)
+72 error     at Request.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:893:14)
+72 error     at Request.EventEmitter.emit (events.js:117:20)
+72 error     at IncomingMessage.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:844:12)
+72 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+72 error     at _stream_readable.js:919:16
+72 error     at process._tickCallback (node.js:419:13)
+73 error If you need help, you may report this *entire* log,
+73 error including the npm and node versions, at:
+73 error     <http://github.com/npm/npm/issues>
+74 error System Windows_NT 6.2.9200
+75 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+76 error cwd E:\Dropbox\Development\generate\verb\verb-tags\verb-tag-jscomments
+77 error node -v v0.10.28
+78 error npm -v 1.4.9
+79 verbose exit [ 1, true ]
