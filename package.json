@@ -1,7 +1,7 @@
 {
   "name": "verb-tag-jscomments",
   "description": "Tag for Verb. Uses js-comments to parse JavaScript code comments and generate API documentation.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/jonschlinkert/verb-tag-jscomments",
   "author": {
     "name": "Jon Schlinkert",
