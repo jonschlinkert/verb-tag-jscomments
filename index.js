@@ -2,9 +2,11 @@
  * Tag plugin for Verb
  */
 
-const file = require('fs-utils');
-const comments = require('js-comments');
-const _ = require('lodash');
+'use strict';
+
+var file = require('fs-utils');
+var comments = require('js-comments');
+var _ = require('lodash');
 
 
 /**
@@ -18,6 +20,7 @@ module.exports = function (verb) {
   var tags = {};
 
   tags.jscomments = function (patterns, options) {
+    // Clone the options
     options = _.extend({}, options);
 
     // Extend the context with options defined in the tag
@@ -31,7 +34,7 @@ module.exports = function (verb) {
       filter: 'isFile'
     });
 
-    // If a filename was given, but no results are returned, kindly notify the user.
+    // If a filename was given, but no results are returned, notify the user.
     if (!matches.length) {
       msg = ' [nomatch] · verb could not find a match for {%%= jscomments("' + patterns + '") %}';
       verb.log.warn('  ' + verb.runner.name + msg);
@@ -39,7 +42,7 @@ module.exports = function (verb) {
     }
 
     var output = _.map(matches, function(filepath) {
-      return comments(filepath, 'README.md');
+      return comments(filepath, 'README.md', verb.options);
     }).join('\n\n');
     return utils.adjust.headings(output);
   };
