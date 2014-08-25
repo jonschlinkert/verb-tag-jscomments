@@ -4,10 +4,10 @@
 
 'use strict';
 
+var util = require('util');
 var file = require('fs-utils');
 var comments = require('js-comments');
 var _ = require('lodash');
-
 
 /**
  * Extract code comments and format for API
@@ -19,13 +19,10 @@ module.exports = function (verb) {
   var utils = verb.utils;
   var tags = {};
 
-  tags.jscomments = function (patterns, options) {
-    // Clone the options
-    options = _.extend({}, options);
 
-    // Extend the context with options defined in the tag
-    _.extend(verb.context, options);
-    _.extend(verb.options, options);
+  tags.jscomments = function (patterns, options) {
+    var opts = _.extend({}, verb.options, options);
+    opts = _.merge({}, verb.context, opts.data);
 
     var matches = [];
     var msg;
@@ -42,7 +39,7 @@ module.exports = function (verb) {
     }
 
     var output = _.map(matches, function(filepath) {
-      return comments(filepath, 'README.md', verb.options);
+      return comments(filepath, 'README.md', opts);
     }).join('\n\n');
     return utils.adjust.headings(output);
   };
