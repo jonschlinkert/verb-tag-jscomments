@@ -39,6 +39,6 @@
   "dependencies": {
     "fs-utils": "^0.4.3",
     "js-comments": "^0.3.0",
-    "lodash": "^2.4.1"
+    "lodash": "^4.17.19"
   }
 }
